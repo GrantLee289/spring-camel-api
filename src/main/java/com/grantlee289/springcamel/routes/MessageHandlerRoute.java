@@ -23,7 +23,7 @@ public class MessageHandlerRoute extends RouteBuilder {
         .tracing()
         .log(LoggingLevel.INFO, "Received: ${body.message}")
         .log(LoggingLevel.INFO, "From: ${body.customerName}: ${body.customerId}")
-        //        .to(applicationProperties.getMessageEndpoint())
+        .to(applicationProperties.getMessageEndpoint())
         .process(new MessageTransformer())
         .setHeader(Exchange.HTTP_RESPONSE_CODE, constant(200));
   }
