@@ -517,3 +517,892 @@ Caused by: org.apache.camel.component.bean.MethodNotFoundException: Method with 
 2020-05-01 15:04:18.222 | [INFO ] | [main] | org.apache.camel.test.spring.StopWatchTestExecutionListener com.grantlee289.springcamel.routes.MessageHandlerRouteTest | afterTestMethod : 55 | Took: 0.514 seconds (514 millis)
 2020-05-01 15:04:18.222 | [INFO ] | [main] | org.apache.camel.test.spring.StopWatchTestExecutionListener com.grantlee289.springcamel.routes.MessageHandlerRouteTest | afterTestMethod : 56 | ********************************************************************************
 2020-05-01 15:04:18.222 | [INFO ] | [main] | org.apache.camel.test.spring.CamelSpringBootExecutionListener org.apache.camel.test.spring.CamelSpringBootExecutionListener | afterTestMethod : 83 | @RunWith(CamelSpringBootRunner.class) after: class com.grantlee289.springcamel.routes.MessageHandlerRouteTest.sendMessage
+2020-05-01 15:49:00.521 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarting : 55 | Starting Application on DESKTOP-8KK3OFN with PID 13372 (C:\Users\44795\IdeaProjects\spring-camel-api\target\classes started by 44795 in C:\Users\44795\IdeaProjects\spring-camel-api)
+2020-05-01 15:49:00.530 | [INFO ] | [main] | org.springframework.boot.SpringApplication com.grantlee289.springcamel.Application | logStartupProfileInfo : 651 | No active profile set, falling back to default profiles: default
+2020-05-01 15:49:01.469 | [INFO ] | [main] | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | postProcessAfterInitialization : 330 | Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$acde6079] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 15:49:01.758 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | initialize : 92 | Tomcat initialized with port(s): 8085 (http)
+2020-05-01 15:49:01.771 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Initializing ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:49:01.772 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardService | log : 173 | Starting service [Tomcat]
+2020-05-01 15:49:01.773 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardEngine | log : 173 | Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 15:49:01.775 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-01 15:49:01.775 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 15:49:01.775 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 15:49:01.796 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-01 15:49:01.980 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | log : 173 | Initializing Spring embedded WebApplicationContext
+2020-05-01 15:49:01.981 | [INFO ] | [main] | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext org.springframework.web.context.ContextLoader | prepareWebApplicationContext : 284 | Root WebApplicationContext: initialization completed in 1413 ms
+2020-05-01 15:49:02.162 | [WARN ] | [main] | org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration | jodaDateTimeSerializationModule : 123 | Auto-configuration of Jackson's Joda-Time integration is deprecated in favor of using java.time (JSR-310).
+2020-05-01 15:49:02.199 | [INFO ] | [main] | org.springframework.scheduling.concurrent.ExecutorConfigurationSupport org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | initialize : 181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:49:02.398 | [WARN ] | [main] | org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor | postProcessBeforeInitialization : 101 | No CamelContext defined yet so cannot inject into bean: properties
+2020-05-01 15:49:02.742 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRoutesFromDirectory : 119 | Loading additional Camel XML routes from: classpath:camel/*.xml
+2020-05-01 15:49:02.743 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRestsFromDirectory : 143 | Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2020-05-01 15:49:02.748 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2321 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is starting
+2020-05-01 15:49:02.749 | [INFO ] | [main] | org.apache.camel.management.JmxManagementStrategy org.apache.camel.management.JmxManagementStrategy | doStart : 96 | JMX is enabled
+2020-05-01 15:49:03.132 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartCamel : 2605 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-05-01 15:49:03.246 | [INFO ] | [main] | org.apache.camel.component.jackson.JacksonDataFormat org.apache.camel.component.jackson.JacksonDataFormat | doStart : 486 | Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@2976ca51
+2020-05-01 15:49:03.247 | [INFO ] | [main] | org.apache.camel.component.jackson.JacksonDataFormat org.apache.camel.component.jackson.JacksonDataFormat | doStart : 486 | Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@2976ca51
+2020-05-01 15:49:03.253 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: message-handler started and consuming from: direct://messageService
+2020-05-01 15:49:03.258 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: doc-api started and consuming from: servlet:/api-doc?httpMethodRestrict=GET%2COPTIONS&matchOnUriPrefix=true&optionsEnabled=true
+2020-05-01 15:49:03.260 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: route1 started and consuming from: servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&optionsEnabled=true
+2020-05-01 15:49:03.263 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2378 | Total 3 routes, of which 3 are started
+2020-05-01 15:49:03.265 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2383 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) started in 0.517 seconds
+2020-05-01 15:49:03.267 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Starting ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:49:03.516 | [INFO ] | [main] | org.apache.camel.component.servlet.CamelHttpTransportServlet org.apache.camel.component.servlet.CamelHttpTransportServlet | init : 80 | Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+2020-05-01 15:49:03.517 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | start : 204 | Tomcat started on port(s): 8085 (http) with context path ''
+2020-05-01 15:49:03.520 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarted : 61 | Started Application in 3.347 seconds (JVM running for 4.778)
+2020-05-01 15:49:49.253 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | *--> [route1      ] [from[rest://post:/spring-camel-ap] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344589199-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@61956bd]
+2020-05-01 15:49:49.254 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [route1      ] [direct:messageService            ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344589199-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@61956bd]
+2020-05-01 15:49:49.258 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | ---> [message-hand] [from[direct:messageService]      ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344589199-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@61956bd]
+2020-05-01 15:49:49.259 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344589199-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@61956bd]
+2020-05-01 15:49:49.281 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | Received: test
+2020-05-01 15:49:49.283 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344589199-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@61956bd]
+2020-05-01 15:49:49.284 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | From: Benoit: 0
+2020-05-01 15:49:49.285 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [file:~/spring-camel-api/to       ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344589199-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@61956bd]
+2020-05-01 15:49:49.289 | [ERROR] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger org.apache.camel.processor.errorhandler.DefaultErrorHandler | log : 203 | Failed delivery for (MessageId: ID-DESKTOP-8KK3OFN-1588344589199-0-2 on ExchangeId: ID-DESKTOP-8KK3OFN-1588344589199-0-1). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: ~\spring-camel-api\to\ID-DESKTOP-8KK3OFN-1588344589199-0-2
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [from[servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&opti] [        92]
+[route1            ] [to3               ] [direct:messageService                                                         ] [         0]
+[message-handler   ] [log1              ] [log                                                                           ] [        25]
+[message-handler   ] [log2              ] [log                                                                           ] [         2]
+[message-handler   ] [to1               ] [file:~/spring-camel-api/to                                                    ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: ~\spring-camel-api\to\ID-DESKTOP-8KK3OFN-1588344589199-0-2
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:376) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.writeFile(GenericFileProducer.java:300) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.processExchange(GenericFileProducer.java:164) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.process(GenericFileProducer.java:75) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorConverterHelper$ProcessorToAsyncProcessorBridge.process(AsyncProcessorConverterHelper.java:67) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:134) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:476) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:228) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:78) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:40) [camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:213) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:79) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+Caused by: org.apache.camel.InvalidPayloadException: No body available of type: java.io.InputStream but has value: com.grantlee289.springcamel.beans.ApiBean@61956bd of type: com.grantlee289.springcamel.beans.ApiBean on: HttpMessage@0x198d9a6d. Caused by: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@61956bd. Exchange[ID-DESKTOP-8KK3OFN-1588344589199-0-1]. Caused by: [org.apache.camel.NoTypeConversionAvailableException - No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@61956bd]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:115) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+Caused by: org.apache.camel.NoTypeConversionAvailableException: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@61956bd
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.mandatoryConvertTo(BaseTypeConverterRegistry.java:139) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:113) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+2020-05-01 15:49:49.299 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | <--- [message-hand] [from[direct://messageService]    ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344589199-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@61956bd]
+2020-05-01 15:49:49.300 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | *<-- [route1      ] [from[servlet:/spring-camel-api/me] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344589199-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@61956bd]
+2020-05-01 15:51:33.965 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarting : 55 | Starting Application on DESKTOP-8KK3OFN with PID 8408 (C:\Users\44795\IdeaProjects\spring-camel-api\target\classes started by 44795 in C:\Users\44795\IdeaProjects\spring-camel-api)
+2020-05-01 15:51:33.973 | [INFO ] | [main] | org.springframework.boot.SpringApplication com.grantlee289.springcamel.Application | logStartupProfileInfo : 651 | No active profile set, falling back to default profiles: default
+2020-05-01 15:51:34.894 | [INFO ] | [main] | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | postProcessAfterInitialization : 330 | Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$6a353060] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 15:51:35.141 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | initialize : 92 | Tomcat initialized with port(s): 8085 (http)
+2020-05-01 15:51:35.151 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Initializing ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:51:35.151 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardService | log : 173 | Starting service [Tomcat]
+2020-05-01 15:51:35.152 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardEngine | log : 173 | Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 15:51:35.154 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-01 15:51:35.154 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 15:51:35.155 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 15:51:35.159 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-01 15:51:35.314 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | log : 173 | Initializing Spring embedded WebApplicationContext
+2020-05-01 15:51:35.314 | [INFO ] | [main] | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext org.springframework.web.context.ContextLoader | prepareWebApplicationContext : 284 | Root WebApplicationContext: initialization completed in 1293 ms
+2020-05-01 15:51:35.495 | [WARN ] | [main] | org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration | jodaDateTimeSerializationModule : 123 | Auto-configuration of Jackson's Joda-Time integration is deprecated in favor of using java.time (JSR-310).
+2020-05-01 15:51:35.549 | [INFO ] | [main] | org.springframework.scheduling.concurrent.ExecutorConfigurationSupport org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | initialize : 181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:51:35.801 | [WARN ] | [main] | org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor | postProcessBeforeInitialization : 101 | No CamelContext defined yet so cannot inject into bean: properties
+2020-05-01 15:51:36.183 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRoutesFromDirectory : 119 | Loading additional Camel XML routes from: classpath:camel/*.xml
+2020-05-01 15:51:36.184 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRestsFromDirectory : 143 | Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2020-05-01 15:51:36.190 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2321 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is starting
+2020-05-01 15:51:36.191 | [INFO ] | [main] | org.apache.camel.management.JmxManagementStrategy org.apache.camel.management.JmxManagementStrategy | doStart : 96 | JMX is enabled
+2020-05-01 15:51:36.467 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStop : 2656 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is shutting down
+2020-05-01 15:51:36.483 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStop : 2769 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) uptime 0.290 seconds
+2020-05-01 15:51:36.483 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStop : 2770 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is shutdown in 0.016 seconds
+2020-05-01 15:51:36.484 | [ERROR] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2361 | Error starting CamelContext (ServicesRest) due to exception thrown: Failed to create route message-handler at: >>> To[file:~/spring-camel-api/to/${body.customerId}.json] <<< in route: Route(message-handler)[From[direct:messageService] -> [Log[R... because of Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+org.apache.camel.FailedToCreateRouteException: Failed to create route message-handler at: >>> To[file:~/spring-camel-api/to/${body.customerId}.json] <<< in route: Route(message-handler)[From[direct:messageService] -> [Log[R... because of Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:379) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.createRoute(RouteReifier.java:108) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.start(DefaultModel.java:326) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRoute(DefaultModel.java:300) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRouteDefinitions(DefaultModel.java:293) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRouteDefinitions(DefaultModel.java:272) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.AbstractModelCamelContext.startRouteDefinitions(AbstractModelCamelContext.java:322) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doStartCamel(AbstractCamelContext.java:2590) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.lambda$doStart$2(AbstractCamelContext.java:2438) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doWithDefinedClassLoader(AbstractCamelContext.java:2455) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doStart(AbstractCamelContext.java:2436) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.boot.SpringBootCamelContext.doStart(SpringBootCamelContext.java:39) ~[camel-spring-boot-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.service.ServiceSupport.start(ServiceSupport.java:99) ~[camel-api-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.start(AbstractCamelContext.java:2345) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:121) [camel-spring-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.SpringCamelContext.onApplicationEvent(SpringCamelContext.java:157) [camel-spring-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.grantlee289.springcamel.Application.main(Application.java:13) [classes/:?]
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.impl.engine.AbstractCamelContext.getEndpoint(AbstractCamelContext.java:801) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:127) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.resolveEndpoint(SendReifier.java:41) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.createProcessor(SendReifier.java:34) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessorImpl(ProcessorReifier.java:574) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessor(ProcessorReifier.java:540) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.addRoutes(ProcessorReifier.java:250) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:377) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	... 30 more
+Caused by: java.lang.IllegalArgumentException: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.component.file.FileComponent.buildFileEndpoint(FileComponent.java:55) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileComponent.createEndpoint(GenericFileComponent.java:56) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileComponent.createEndpoint(GenericFileComponent.java:38) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.DefaultComponent.createEndpoint(DefaultComponent.java:206) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.getEndpoint(AbstractCamelContext.java:753) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:127) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.resolveEndpoint(SendReifier.java:41) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.createProcessor(SendReifier.java:34) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessorImpl(ProcessorReifier.java:574) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessor(ProcessorReifier.java:540) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.addRoutes(ProcessorReifier.java:250) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:377) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	... 30 more
+2020-05-01 15:51:36.499 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardService | log : 173 | Stopping service [Tomcat]
+2020-05-01 15:51:36.509 | [INFO ] | [main] | org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener | logMessage : 136 | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-01 15:51:36.511 | [ERROR] | [main] | org.springframework.boot.SpringApplication org.springframework.boot.SpringApplication | reportFailure : 826 | Application run failed
+org.apache.camel.FailedToCreateRouteException: Failed to create route message-handler at: >>> To[file:~/spring-camel-api/to/${body.customerId}.json] <<< in route: Route(message-handler)[From[direct:messageService] -> [Log[R... because of Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:379) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.createRoute(RouteReifier.java:108) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.start(DefaultModel.java:326) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRoute(DefaultModel.java:300) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRouteDefinitions(DefaultModel.java:293) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRouteDefinitions(DefaultModel.java:272) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.AbstractModelCamelContext.startRouteDefinitions(AbstractModelCamelContext.java:322) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doStartCamel(AbstractCamelContext.java:2590) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.lambda$doStart$2(AbstractCamelContext.java:2438) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doWithDefinedClassLoader(AbstractCamelContext.java:2455) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doStart(AbstractCamelContext.java:2436) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.boot.SpringBootCamelContext.doStart(SpringBootCamelContext.java:39) ~[camel-spring-boot-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.service.ServiceSupport.start(ServiceSupport.java:99) ~[camel-api-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.start(AbstractCamelContext.java:2345) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:121) ~[camel-spring-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.SpringCamelContext.onApplicationEvent(SpringCamelContext.java:157) ~[camel-spring-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.grantlee289.springcamel.Application.main(Application.java:13) [classes/:?]
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.impl.engine.AbstractCamelContext.getEndpoint(AbstractCamelContext.java:801) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:127) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.resolveEndpoint(SendReifier.java:41) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.createProcessor(SendReifier.java:34) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessorImpl(ProcessorReifier.java:574) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessor(ProcessorReifier.java:540) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.addRoutes(ProcessorReifier.java:250) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:377) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	... 30 more
+Caused by: java.lang.IllegalArgumentException: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.component.file.FileComponent.buildFileEndpoint(FileComponent.java:55) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileComponent.createEndpoint(GenericFileComponent.java:56) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileComponent.createEndpoint(GenericFileComponent.java:38) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.DefaultComponent.createEndpoint(DefaultComponent.java:206) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.getEndpoint(AbstractCamelContext.java:753) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:127) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.resolveEndpoint(SendReifier.java:41) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.createProcessor(SendReifier.java:34) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessorImpl(ProcessorReifier.java:574) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessor(ProcessorReifier.java:540) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.addRoutes(ProcessorReifier.java:250) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:377) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	... 30 more
+2020-05-01 15:51:36.518 | [INFO ] | [main] | org.springframework.scheduling.concurrent.ExecutorConfigurationSupport org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | shutdown : 218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:51:43.025 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarting : 55 | Starting Application on DESKTOP-8KK3OFN with PID 11580 (C:\Users\44795\IdeaProjects\spring-camel-api\target\classes started by 44795 in C:\Users\44795\IdeaProjects\spring-camel-api)
+2020-05-01 15:51:43.033 | [INFO ] | [main] | org.springframework.boot.SpringApplication com.grantlee289.springcamel.Application | logStartupProfileInfo : 651 | No active profile set, falling back to default profiles: default
+2020-05-01 15:51:43.846 | [INFO ] | [main] | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | postProcessAfterInitialization : 330 | Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$d96be59f] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 15:51:44.079 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | initialize : 92 | Tomcat initialized with port(s): 8085 (http)
+2020-05-01 15:51:44.088 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Initializing ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:51:44.089 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardService | log : 173 | Starting service [Tomcat]
+2020-05-01 15:51:44.089 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardEngine | log : 173 | Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 15:51:44.091 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-01 15:51:44.091 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 15:51:44.091 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 15:51:44.095 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-01 15:51:44.247 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | log : 173 | Initializing Spring embedded WebApplicationContext
+2020-05-01 15:51:44.248 | [INFO ] | [main] | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext org.springframework.web.context.ContextLoader | prepareWebApplicationContext : 284 | Root WebApplicationContext: initialization completed in 1179 ms
+2020-05-01 15:51:44.393 | [WARN ] | [main] | org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration | jodaDateTimeSerializationModule : 123 | Auto-configuration of Jackson's Joda-Time integration is deprecated in favor of using java.time (JSR-310).
+2020-05-01 15:51:44.431 | [INFO ] | [main] | org.springframework.scheduling.concurrent.ExecutorConfigurationSupport org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | initialize : 181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:51:44.640 | [WARN ] | [main] | org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor | postProcessBeforeInitialization : 101 | No CamelContext defined yet so cannot inject into bean: properties
+2020-05-01 15:51:45.015 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRoutesFromDirectory : 119 | Loading additional Camel XML routes from: classpath:camel/*.xml
+2020-05-01 15:51:45.015 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRestsFromDirectory : 143 | Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2020-05-01 15:51:45.021 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2321 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is starting
+2020-05-01 15:51:45.021 | [INFO ] | [main] | org.apache.camel.management.JmxManagementStrategy org.apache.camel.management.JmxManagementStrategy | doStart : 96 | JMX is enabled
+2020-05-01 15:51:45.245 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStop : 2656 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is shutting down
+2020-05-01 15:51:45.267 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStop : 2769 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) uptime 0.241 seconds
+2020-05-01 15:51:45.268 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStop : 2770 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is shutdown in 0.022 seconds
+2020-05-01 15:51:45.268 | [ERROR] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2361 | Error starting CamelContext (ServicesRest) due to exception thrown: Failed to create route message-handler at: >>> To[file:~/spring-camel-api/to/${body.customerId}.json] <<< in route: Route(message-handler)[From[direct:messageService] -> [Log[R... because of Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+org.apache.camel.FailedToCreateRouteException: Failed to create route message-handler at: >>> To[file:~/spring-camel-api/to/${body.customerId}.json] <<< in route: Route(message-handler)[From[direct:messageService] -> [Log[R... because of Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:379) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.createRoute(RouteReifier.java:108) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.start(DefaultModel.java:326) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRoute(DefaultModel.java:300) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRouteDefinitions(DefaultModel.java:293) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRouteDefinitions(DefaultModel.java:272) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.AbstractModelCamelContext.startRouteDefinitions(AbstractModelCamelContext.java:322) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doStartCamel(AbstractCamelContext.java:2590) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.lambda$doStart$2(AbstractCamelContext.java:2438) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doWithDefinedClassLoader(AbstractCamelContext.java:2455) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doStart(AbstractCamelContext.java:2436) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.boot.SpringBootCamelContext.doStart(SpringBootCamelContext.java:39) ~[camel-spring-boot-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.service.ServiceSupport.start(ServiceSupport.java:99) ~[camel-api-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.start(AbstractCamelContext.java:2345) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:121) [camel-spring-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.SpringCamelContext.onApplicationEvent(SpringCamelContext.java:157) [camel-spring-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) [spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.grantlee289.springcamel.Application.main(Application.java:13) [classes/:?]
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.impl.engine.AbstractCamelContext.getEndpoint(AbstractCamelContext.java:801) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:127) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.resolveEndpoint(SendReifier.java:41) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.createProcessor(SendReifier.java:34) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessorImpl(ProcessorReifier.java:574) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessor(ProcessorReifier.java:540) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.addRoutes(ProcessorReifier.java:250) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:377) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	... 30 more
+Caused by: java.lang.IllegalArgumentException: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.component.file.FileComponent.buildFileEndpoint(FileComponent.java:55) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileComponent.createEndpoint(GenericFileComponent.java:56) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileComponent.createEndpoint(GenericFileComponent.java:38) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.DefaultComponent.createEndpoint(DefaultComponent.java:206) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.getEndpoint(AbstractCamelContext.java:753) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:127) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.resolveEndpoint(SendReifier.java:41) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.createProcessor(SendReifier.java:34) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessorImpl(ProcessorReifier.java:574) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessor(ProcessorReifier.java:540) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.addRoutes(ProcessorReifier.java:250) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:377) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	... 30 more
+2020-05-01 15:51:45.280 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardService | log : 173 | Stopping service [Tomcat]
+2020-05-01 15:51:45.288 | [INFO ] | [main] | org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener org.springframework.boot.autoconfigure.logging.ConditionEvaluationReportLoggingListener | logMessage : 136 | 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2020-05-01 15:51:45.288 | [ERROR] | [main] | org.springframework.boot.SpringApplication org.springframework.boot.SpringApplication | reportFailure : 826 | Application run failed
+org.apache.camel.FailedToCreateRouteException: Failed to create route message-handler at: >>> To[file:~/spring-camel-api/to/${body.customerId}.json] <<< in route: Route(message-handler)[From[direct:messageService] -> [Log[R... because of Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:379) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.createRoute(RouteReifier.java:108) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.start(DefaultModel.java:326) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRoute(DefaultModel.java:300) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRouteDefinitions(DefaultModel.java:293) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.DefaultModel.startRouteDefinitions(DefaultModel.java:272) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.AbstractModelCamelContext.startRouteDefinitions(AbstractModelCamelContext.java:322) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doStartCamel(AbstractCamelContext.java:2590) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.lambda$doStart$2(AbstractCamelContext.java:2438) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doWithDefinedClassLoader(AbstractCamelContext.java:2455) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.doStart(AbstractCamelContext.java:2436) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.boot.SpringBootCamelContext.doStart(SpringBootCamelContext.java:39) ~[camel-spring-boot-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.service.ServiceSupport.start(ServiceSupport.java:99) ~[camel-api-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.start(AbstractCamelContext.java:2345) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.SpringCamelContext.start(SpringCamelContext.java:121) ~[camel-spring-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.spring.SpringCamelContext.onApplicationEvent(SpringCamelContext.java:157) ~[camel-spring-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.doInvokeListener(SimpleApplicationEventMulticaster.java:172) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.invokeListener(SimpleApplicationEventMulticaster.java:165) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.event.SimpleApplicationEventMulticaster.multicastEvent(SimpleApplicationEventMulticaster.java:139) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:403) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.publishEvent(AbstractApplicationContext.java:360) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishRefresh(AbstractApplicationContext.java:897) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553) ~[spring-context-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:141) ~[spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:747) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:397) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215) [spring-boot-2.2.6.RELEASE.jar:2.2.6.RELEASE]
+	at com.grantlee289.springcamel.Application.main(Application.java:13) [classes/:?]
+Caused by: org.apache.camel.ResolveEndpointFailedException: Failed to resolve endpoint: file://%7E/spring-camel-api/to/$%7Bbody.customerId%7D.json due to: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.impl.engine.AbstractCamelContext.getEndpoint(AbstractCamelContext.java:801) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:127) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.resolveEndpoint(SendReifier.java:41) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.createProcessor(SendReifier.java:34) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessorImpl(ProcessorReifier.java:574) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessor(ProcessorReifier.java:540) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.addRoutes(ProcessorReifier.java:250) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:377) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	... 30 more
+Caused by: java.lang.IllegalArgumentException: Invalid directory: ~/spring-camel-api/to/${body.customerId}.json. Dynamic expressions with ${ } placeholders is not allowed. Use the fileName option to set the dynamic expression.
+	at org.apache.camel.component.file.FileComponent.buildFileEndpoint(FileComponent.java:55) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileComponent.createEndpoint(GenericFileComponent.java:56) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileComponent.createEndpoint(GenericFileComponent.java:38) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.DefaultComponent.createEndpoint(DefaultComponent.java:206) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.AbstractCamelContext.getEndpoint(AbstractCamelContext.java:753) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultRouteContext.resolveEndpoint(DefaultRouteContext.java:127) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.resolveEndpoint(SendReifier.java:41) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.SendReifier.createProcessor(SendReifier.java:34) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessorImpl(ProcessorReifier.java:574) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.makeProcessor(ProcessorReifier.java:540) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.ProcessorReifier.addRoutes(ProcessorReifier.java:250) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.reifier.RouteReifier.doCreateRoute(RouteReifier.java:377) ~[camel-core-engine-3.0.0-RC3.jar:3.0.0-RC3]
+	... 30 more
+2020-05-01 15:51:45.294 | [INFO ] | [main] | org.springframework.scheduling.concurrent.ExecutorConfigurationSupport org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | shutdown : 218 | Shutting down ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:53:17.797 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarting : 55 | Starting Application on DESKTOP-8KK3OFN with PID 11916 (C:\Users\44795\IdeaProjects\spring-camel-api\target\classes started by 44795 in C:\Users\44795\IdeaProjects\spring-camel-api)
+2020-05-01 15:53:17.806 | [INFO ] | [main] | org.springframework.boot.SpringApplication com.grantlee289.springcamel.Application | logStartupProfileInfo : 651 | No active profile set, falling back to default profiles: default
+2020-05-01 15:53:18.670 | [INFO ] | [main] | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | postProcessAfterInitialization : 330 | Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$918693d5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 15:53:18.894 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | initialize : 92 | Tomcat initialized with port(s): 8085 (http)
+2020-05-01 15:53:18.907 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Initializing ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:53:18.908 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardService | log : 173 | Starting service [Tomcat]
+2020-05-01 15:53:18.909 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardEngine | log : 173 | Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 15:53:18.911 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-01 15:53:18.912 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 15:53:18.912 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 15:53:18.916 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-01 15:53:19.066 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | log : 173 | Initializing Spring embedded WebApplicationContext
+2020-05-01 15:53:19.067 | [INFO ] | [main] | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext org.springframework.web.context.ContextLoader | prepareWebApplicationContext : 284 | Root WebApplicationContext: initialization completed in 1224 ms
+2020-05-01 15:53:19.262 | [WARN ] | [main] | org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration | jodaDateTimeSerializationModule : 123 | Auto-configuration of Jackson's Joda-Time integration is deprecated in favor of using java.time (JSR-310).
+2020-05-01 15:53:19.301 | [INFO ] | [main] | org.springframework.scheduling.concurrent.ExecutorConfigurationSupport org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | initialize : 181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:53:19.511 | [WARN ] | [main] | org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor | postProcessBeforeInitialization : 101 | No CamelContext defined yet so cannot inject into bean: properties
+2020-05-01 15:53:19.899 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRoutesFromDirectory : 119 | Loading additional Camel XML routes from: classpath:camel/*.xml
+2020-05-01 15:53:19.900 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRestsFromDirectory : 143 | Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2020-05-01 15:53:19.907 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2321 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is starting
+2020-05-01 15:53:19.908 | [INFO ] | [main] | org.apache.camel.management.JmxManagementStrategy org.apache.camel.management.JmxManagementStrategy | doStart : 96 | JMX is enabled
+2020-05-01 15:53:20.284 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartCamel : 2605 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-05-01 15:53:20.377 | [INFO ] | [main] | org.apache.camel.component.jackson.JacksonDataFormat org.apache.camel.component.jackson.JacksonDataFormat | doStart : 486 | Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@3451fc88
+2020-05-01 15:53:20.378 | [INFO ] | [main] | org.apache.camel.component.jackson.JacksonDataFormat org.apache.camel.component.jackson.JacksonDataFormat | doStart : 486 | Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@3451fc88
+2020-05-01 15:53:20.380 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: message-handler started and consuming from: direct://messageService
+2020-05-01 15:53:20.382 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: doc-api started and consuming from: servlet:/api-doc?httpMethodRestrict=GET%2COPTIONS&matchOnUriPrefix=true&optionsEnabled=true
+2020-05-01 15:53:20.383 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: route1 started and consuming from: servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&optionsEnabled=true
+2020-05-01 15:53:20.388 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2378 | Total 3 routes, of which 3 are started
+2020-05-01 15:53:20.390 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2383 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) started in 0.481 seconds
+2020-05-01 15:53:20.392 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Starting ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:53:20.649 | [INFO ] | [main] | org.apache.camel.component.servlet.CamelHttpTransportServlet org.apache.camel.component.servlet.CamelHttpTransportServlet | init : 80 | Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+2020-05-01 15:53:20.653 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | start : 204 | Tomcat started on port(s): 8085 (http) with context path ''
+2020-05-01 15:53:20.656 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarted : 61 | Started Application in 3.189 seconds (JVM running for 4.538)
+2020-05-01 15:53:24.407 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | *--> [route1      ] [from[rest://post:/spring-camel-ap] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344804350-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+2020-05-01 15:53:24.408 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [route1      ] [direct:messageService            ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344804350-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+2020-05-01 15:53:24.412 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | ---> [message-hand] [from[direct:messageService]      ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344804350-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+2020-05-01 15:53:24.413 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344804350-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+2020-05-01 15:53:24.437 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | Received: test
+2020-05-01 15:53:24.439 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344804350-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+2020-05-01 15:53:24.440 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | From: Benoit: 0
+2020-05-01 15:53:24.441 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [file:~/spring-camel-api/to/0.json] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344804350-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+2020-05-01 15:53:24.445 | [ERROR] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger org.apache.camel.processor.errorhandler.DefaultErrorHandler | log : 203 | Failed delivery for (MessageId: ID-DESKTOP-8KK3OFN-1588344804350-0-2 on ExchangeId: ID-DESKTOP-8KK3OFN-1588344804350-0-1). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: ~\spring-camel-api\to\0.json\ID-DESKTOP-8KK3OFN-1588344804350-0-2
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [from[servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&opti] [        95]
+[route1            ] [to3               ] [direct:messageService                                                         ] [         0]
+[message-handler   ] [log1              ] [log                                                                           ] [        26]
+[message-handler   ] [log2              ] [log                                                                           ] [         2]
+[message-handler   ] [to1               ] [file:~/spring-camel-api/to/0.json                                             ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: ~\spring-camel-api\to\0.json\ID-DESKTOP-8KK3OFN-1588344804350-0-2
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:376) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.writeFile(GenericFileProducer.java:300) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.processExchange(GenericFileProducer.java:164) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.process(GenericFileProducer.java:75) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorConverterHelper$ProcessorToAsyncProcessorBridge.process(AsyncProcessorConverterHelper.java:67) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:134) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:476) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:228) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:78) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:40) [camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:213) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:79) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+Caused by: org.apache.camel.InvalidPayloadException: No body available of type: java.io.InputStream but has value: com.grantlee289.springcamel.beans.ApiBean@35577ec0 of type: com.grantlee289.springcamel.beans.ApiBean on: HttpMessage@0x360e1074. Caused by: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@35577ec0. Exchange[ID-DESKTOP-8KK3OFN-1588344804350-0-1]. Caused by: [org.apache.camel.NoTypeConversionAvailableException - No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:115) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+Caused by: org.apache.camel.NoTypeConversionAvailableException: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@35577ec0
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.mandatoryConvertTo(BaseTypeConverterRegistry.java:139) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:113) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+2020-05-01 15:53:24.457 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | <--- [message-hand] [from[direct://messageService]    ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344804350-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+2020-05-01 15:53:24.457 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | *<-- [route1      ] [from[servlet:/spring-camel-api/me] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344804350-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@35577ec0]
+2020-05-01 15:54:19.810 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarting : 55 | Starting Application on DESKTOP-8KK3OFN with PID 9348 (C:\Users\44795\IdeaProjects\spring-camel-api\target\classes started by 44795 in C:\Users\44795\IdeaProjects\spring-camel-api)
+2020-05-01 15:54:19.818 | [INFO ] | [main] | org.springframework.boot.SpringApplication com.grantlee289.springcamel.Application | logStartupProfileInfo : 651 | No active profile set, falling back to default profiles: default
+2020-05-01 15:54:20.669 | [INFO ] | [main] | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | postProcessAfterInitialization : 330 | Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$6cab0971] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 15:54:20.927 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | initialize : 92 | Tomcat initialized with port(s): 8085 (http)
+2020-05-01 15:54:20.937 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Initializing ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:54:20.937 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardService | log : 173 | Starting service [Tomcat]
+2020-05-01 15:54:20.938 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardEngine | log : 173 | Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 15:54:20.940 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-01 15:54:20.941 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 15:54:20.941 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 15:54:20.945 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-01 15:54:21.109 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | log : 173 | Initializing Spring embedded WebApplicationContext
+2020-05-01 15:54:21.110 | [INFO ] | [main] | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext org.springframework.web.context.ContextLoader | prepareWebApplicationContext : 284 | Root WebApplicationContext: initialization completed in 1250 ms
+2020-05-01 15:54:21.279 | [WARN ] | [main] | org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration | jodaDateTimeSerializationModule : 123 | Auto-configuration of Jackson's Joda-Time integration is deprecated in favor of using java.time (JSR-310).
+2020-05-01 15:54:21.316 | [INFO ] | [main] | org.springframework.scheduling.concurrent.ExecutorConfigurationSupport org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | initialize : 181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:54:21.534 | [WARN ] | [main] | org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor | postProcessBeforeInitialization : 101 | No CamelContext defined yet so cannot inject into bean: properties
+2020-05-01 15:54:21.892 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRoutesFromDirectory : 119 | Loading additional Camel XML routes from: classpath:camel/*.xml
+2020-05-01 15:54:21.892 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRestsFromDirectory : 143 | Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2020-05-01 15:54:21.899 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2321 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is starting
+2020-05-01 15:54:21.900 | [INFO ] | [main] | org.apache.camel.management.JmxManagementStrategy org.apache.camel.management.JmxManagementStrategy | doStart : 96 | JMX is enabled
+2020-05-01 15:54:22.249 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartCamel : 2605 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-05-01 15:54:22.350 | [INFO ] | [main] | org.apache.camel.component.jackson.JacksonDataFormat org.apache.camel.component.jackson.JacksonDataFormat | doStart : 486 | Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@63814bbe
+2020-05-01 15:54:22.351 | [INFO ] | [main] | org.apache.camel.component.jackson.JacksonDataFormat org.apache.camel.component.jackson.JacksonDataFormat | doStart : 486 | Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@63814bbe
+2020-05-01 15:54:22.353 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: message-handler started and consuming from: direct://messageService
+2020-05-01 15:54:22.356 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: doc-api started and consuming from: servlet:/api-doc?httpMethodRestrict=GET%2COPTIONS&matchOnUriPrefix=true&optionsEnabled=true
+2020-05-01 15:54:22.357 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: route1 started and consuming from: servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&optionsEnabled=true
+2020-05-01 15:54:22.362 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2378 | Total 3 routes, of which 3 are started
+2020-05-01 15:54:22.364 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2383 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) started in 0.463 seconds
+2020-05-01 15:54:22.366 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Starting ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:54:22.624 | [INFO ] | [main] | org.apache.camel.component.servlet.CamelHttpTransportServlet org.apache.camel.component.servlet.CamelHttpTransportServlet | init : 80 | Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+2020-05-01 15:54:22.625 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | start : 204 | Tomcat started on port(s): 8085 (http) with context path ''
+2020-05-01 15:54:22.628 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarted : 61 | Started Application in 3.136 seconds (JVM running for 4.494)
+2020-05-01 15:54:34.176 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | *--> [route1      ] [from[rest://post:/spring-camel-ap] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+2020-05-01 15:54:34.178 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [route1      ] [direct:messageService            ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+2020-05-01 15:54:34.182 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | ---> [message-hand] [from[direct:messageService]      ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+2020-05-01 15:54:34.183 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+2020-05-01 15:54:34.203 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | Received: test
+2020-05-01 15:54:34.205 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+2020-05-01 15:54:34.206 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | From: Benoit: 0
+2020-05-01 15:54:34.207 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [file:to/0.json                   ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+2020-05-01 15:54:34.210 | [ERROR] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger org.apache.camel.processor.errorhandler.DefaultErrorHandler | log : 203 | Failed delivery for (MessageId: ID-DESKTOP-8KK3OFN-1588344874126-0-2 on ExchangeId: ID-DESKTOP-8KK3OFN-1588344874126-0-1). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: to\0.json\ID-DESKTOP-8KK3OFN-1588344874126-0-2
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [from[servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&opti] [        85]
+[route1            ] [to3               ] [direct:messageService                                                         ] [         0]
+[message-handler   ] [log1              ] [log                                                                           ] [        23]
+[message-handler   ] [log2              ] [log                                                                           ] [         2]
+[message-handler   ] [to1               ] [file:to/0.json                                                                ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: to\0.json\ID-DESKTOP-8KK3OFN-1588344874126-0-2
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:376) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.writeFile(GenericFileProducer.java:300) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.processExchange(GenericFileProducer.java:164) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.process(GenericFileProducer.java:75) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorConverterHelper$ProcessorToAsyncProcessorBridge.process(AsyncProcessorConverterHelper.java:67) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:134) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:476) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:228) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:78) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:40) [camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:213) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:79) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+Caused by: org.apache.camel.InvalidPayloadException: No body available of type: java.io.InputStream but has value: com.grantlee289.springcamel.beans.ApiBean@5aaac918 of type: com.grantlee289.springcamel.beans.ApiBean on: HttpMessage@0x448682f4. Caused by: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@5aaac918. Exchange[ID-DESKTOP-8KK3OFN-1588344874126-0-1]. Caused by: [org.apache.camel.NoTypeConversionAvailableException - No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:115) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+Caused by: org.apache.camel.NoTypeConversionAvailableException: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@5aaac918
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.mandatoryConvertTo(BaseTypeConverterRegistry.java:139) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:113) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+2020-05-01 15:54:34.224 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | <--- [message-hand] [from[direct://messageService]    ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+2020-05-01 15:54:34.225 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | *<-- [route1      ] [from[servlet:/spring-camel-api/me] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-1, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@5aaac918]
+2020-05-01 15:55:07.723 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [route1      ] [direct:messageService            ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-6, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@4c56c8c9]
+2020-05-01 15:55:07.724 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-6, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@4c56c8c9]
+2020-05-01 15:55:07.724 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | Received: test
+2020-05-01 15:55:07.725 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | ---> [message-hand] [from[direct:messageService]      ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-6, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@4c56c8c9]
+2020-05-01 15:55:07.725 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-6, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@4c56c8c9]
+2020-05-01 15:55:07.726 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | From: Benoit: 123
+2020-05-01 15:55:07.727 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [file:to/0.json                   ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-6, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@4c56c8c9]
+2020-05-01 15:55:07.729 | [ERROR] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.spi.CamelLogger org.apache.camel.processor.errorhandler.DefaultErrorHandler | log : 203 | Failed delivery for (MessageId: ID-DESKTOP-8KK3OFN-1588344874126-0-7 on ExchangeId: ID-DESKTOP-8KK3OFN-1588344874126-0-6). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: to\0.json\ID-DESKTOP-8KK3OFN-1588344874126-0-7
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [from[servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&opti] [         7]
+[route1            ] [to3               ] [direct:messageService                                                         ] [         0]
+[message-handler   ] [log1              ] [log                                                                           ] [         1]
+[message-handler   ] [log2              ] [log                                                                           ] [         2]
+[message-handler   ] [to1               ] [file:to/0.json                                                                ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: to\0.json\ID-DESKTOP-8KK3OFN-1588344874126-0-7
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:376) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.writeFile(GenericFileProducer.java:300) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.processExchange(GenericFileProducer.java:164) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.process(GenericFileProducer.java:75) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorConverterHelper$ProcessorToAsyncProcessorBridge.process(AsyncProcessorConverterHelper.java:67) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:134) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:476) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:228) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:78) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:40) [camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:213) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:79) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+Caused by: org.apache.camel.InvalidPayloadException: No body available of type: java.io.InputStream but has value: com.grantlee289.springcamel.beans.ApiBean@4c56c8c9 of type: com.grantlee289.springcamel.beans.ApiBean on: HttpMessage@0x2e7f1e30. Caused by: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@4c56c8c9. Exchange[ID-DESKTOP-8KK3OFN-1588344874126-0-6]. Caused by: [org.apache.camel.NoTypeConversionAvailableException - No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@4c56c8c9]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:115) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+Caused by: org.apache.camel.NoTypeConversionAvailableException: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@4c56c8c9
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.mandatoryConvertTo(BaseTypeConverterRegistry.java:139) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:113) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+2020-05-01 15:55:07.731 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | <--- [message-hand] [from[direct://messageService]    ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344874126-0-6, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@4c56c8c9]
+2020-05-01 15:55:18.673 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarting : 55 | Starting Application on DESKTOP-8KK3OFN with PID 12376 (C:\Users\44795\IdeaProjects\spring-camel-api\target\classes started by 44795 in C:\Users\44795\IdeaProjects\spring-camel-api)
+2020-05-01 15:55:18.682 | [INFO ] | [main] | org.springframework.boot.SpringApplication com.grantlee289.springcamel.Application | logStartupProfileInfo : 651 | No active profile set, falling back to default profiles: default
+2020-05-01 15:55:19.628 | [INFO ] | [main] | org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker | postProcessAfterInitialization : 330 | Bean 'org.apache.camel.spring.boot.CamelAutoConfiguration' of type [org.apache.camel.spring.boot.CamelAutoConfiguration$$EnhancerBySpringCGLIB$$6fd3ddfb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2020-05-01 15:55:19.880 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | initialize : 92 | Tomcat initialized with port(s): 8085 (http)
+2020-05-01 15:55:19.891 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Initializing ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:55:19.892 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardService | log : 173 | Starting service [Tomcat]
+2020-05-01 15:55:19.892 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.StandardEngine | log : 173 | Starting Servlet engine: [Apache Tomcat/9.0.33]
+2020-05-01 15:55:19.894 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | Loaded APR based Apache Tomcat Native library [1.2.23] using APR version [1.7.0].
+2020-05-01 15:55:19.894 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR capabilities: IPv6 [true], sendfile [true], accept filters [false], random [true].
+2020-05-01 15:55:19.895 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | APR/OpenSSL configuration: useAprConnector [false], useOpenSSL [true]
+2020-05-01 15:55:19.898 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.AprLifecycleListener | log : 173 | OpenSSL successfully initialized [OpenSSL 1.1.1c  28 May 2019]
+2020-05-01 15:55:20.055 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] | log : 173 | Initializing Spring embedded WebApplicationContext
+2020-05-01 15:55:20.055 | [INFO ] | [main] | org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext org.springframework.web.context.ContextLoader | prepareWebApplicationContext : 284 | Root WebApplicationContext: initialization completed in 1330 ms
+2020-05-01 15:55:20.224 | [WARN ] | [main] | org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JodaDateTimeJacksonConfiguration | jodaDateTimeSerializationModule : 123 | Auto-configuration of Jackson's Joda-Time integration is deprecated in favor of using java.time (JSR-310).
+2020-05-01 15:55:20.258 | [INFO ] | [main] | org.springframework.scheduling.concurrent.ExecutorConfigurationSupport org.springframework.scheduling.concurrent.ThreadPoolTaskExecutor | initialize : 181 | Initializing ExecutorService 'applicationTaskExecutor'
+2020-05-01 15:55:20.493 | [WARN ] | [main] | org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor org.apache.camel.impl.engine.DefaultCamelBeanPostProcessor | postProcessBeforeInitialization : 101 | No CamelContext defined yet so cannot inject into bean: properties
+2020-05-01 15:55:20.912 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRoutesFromDirectory : 119 | Loading additional Camel XML routes from: classpath:camel/*.xml
+2020-05-01 15:55:20.912 | [INFO ] | [main] | org.apache.camel.spring.boot.SpringBootRoutesCollector org.apache.camel.spring.boot.SpringBootRoutesCollector | collectXmlRestsFromDirectory : 143 | Loading additional Camel XML rests from: classpath:camel-rest/*.xml
+2020-05-01 15:55:20.919 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2321 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) is starting
+2020-05-01 15:55:20.920 | [INFO ] | [main] | org.apache.camel.management.JmxManagementStrategy org.apache.camel.management.JmxManagementStrategy | doStart : 96 | JMX is enabled
+2020-05-01 15:55:21.318 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartCamel : 2605 | StreamCaching is not in use. If using streams then its recommended to enable stream caching. See more details at http://camel.apache.org/stream-caching.html
+2020-05-01 15:55:21.407 | [INFO ] | [main] | org.apache.camel.component.jackson.JacksonDataFormat org.apache.camel.component.jackson.JacksonDataFormat | doStart : 486 | Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@154864f8
+2020-05-01 15:55:21.408 | [INFO ] | [main] | org.apache.camel.component.jackson.JacksonDataFormat org.apache.camel.component.jackson.JacksonDataFormat | doStart : 486 | Found single ObjectMapper in Registry to use: com.fasterxml.jackson.databind.ObjectMapper@154864f8
+2020-05-01 15:55:21.410 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: message-handler started and consuming from: direct://messageService
+2020-05-01 15:55:21.414 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: doc-api started and consuming from: servlet:/api-doc?httpMethodRestrict=GET%2COPTIONS&matchOnUriPrefix=true&optionsEnabled=true
+2020-05-01 15:55:21.415 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | doStartOrResumeRouteConsumers : 3222 | Route: route1 started and consuming from: servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&optionsEnabled=true
+2020-05-01 15:55:21.420 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2378 | Total 3 routes, of which 3 are started
+2020-05-01 15:55:21.422 | [INFO ] | [main] | org.apache.camel.impl.engine.AbstractCamelContext org.apache.camel.spring.boot.SpringBootCamelContext | start : 2383 | Apache Camel 3.0.0-RC3 (CamelContext: ServicesRest) started in 0.501 seconds
+2020-05-01 15:55:21.424 | [INFO ] | [main] | org.apache.juli.logging.DirectJDKLog org.apache.coyote.http11.Http11NioProtocol | log : 173 | Starting ProtocolHandler ["http-nio-0.0.0.0-8085"]
+2020-05-01 15:55:21.669 | [INFO ] | [main] | org.apache.camel.component.servlet.CamelHttpTransportServlet org.apache.camel.component.servlet.CamelHttpTransportServlet | init : 80 | Initialized CamelHttpTransportServlet[name=CamelServlet, contextPath=]
+2020-05-01 15:55:21.669 | [INFO ] | [main] | org.springframework.boot.web.embedded.tomcat.TomcatWebServer org.springframework.boot.web.embedded.tomcat.TomcatWebServer | start : 204 | Tomcat started on port(s): 8085 (http) with context path ''
+2020-05-01 15:55:21.671 | [INFO ] | [main] | org.springframework.boot.StartupInfoLogger com.grantlee289.springcamel.Application | logStarted : 61 | Started Application in 3.35 seconds (JVM running for 4.693)
+2020-05-01 15:56:02.623 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | *--> [route1      ] [from[rest://post:/spring-camel-ap] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-1, BodyType: String, Body: {customerName:Benoit,customerId:123,message:test}]
+2020-05-01 15:56:02.625 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [route1      ] [direct:messageService            ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-1, BodyType: String, Body: {customerName:Benoit,customerId:123,message:test}]
+2020-05-01 15:56:02.628 | [ERROR] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.spi.CamelLogger org.apache.camel.processor.errorhandler.DefaultErrorHandler | log : 203 | Failed delivery for (MessageId: ID-DESKTOP-8KK3OFN-1588344962577-0-2 on ExchangeId: ID-DESKTOP-8KK3OFN-1588344962577-0-1). Exhausted after delivery attempt: 1 caught: com.fasterxml.jackson.core.JsonParseException: Unexpected character ('c' (code 99)): was expecting double-quote to start field name
+ at [Source: (ByteArrayInputStream); line: 1, column: 3]
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [from[servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&opti] [        52]
+[route1            ] [to3               ] [direct:messageService                                                         ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+com.fasterxml.jackson.core.JsonParseException: Unexpected character ('c' (code 99)): was expecting double-quote to start field name
+ at [Source: (ByteArrayInputStream); line: 1, column: 3]
+	at com.fasterxml.jackson.core.JsonParser._constructError(JsonParser.java:1840) ~[jackson-core-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportError(ParserMinimalBase.java:712) ~[jackson-core-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.core.base.ParserMinimalBase._reportUnexpectedChar(ParserMinimalBase.java:637) ~[jackson-core-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._handleOddName(UTF8StreamJsonParser.java:2021) ~[jackson-core-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser._parseName(UTF8StreamJsonParser.java:1672) ~[jackson-core-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.core.json.UTF8StreamJsonParser.nextToken(UTF8StreamJsonParser.java:758) ~[jackson-core-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.deser.BeanDeserializer.deserialize(BeanDeserializer.java:155) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ObjectMapper._readMapAndClose(ObjectMapper.java:4218) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at com.fasterxml.jackson.databind.ObjectMapper.readValue(ObjectMapper.java:3251) ~[jackson-databind-2.10.3.jar:2.10.3]
+	at org.apache.camel.component.jackson.JacksonDataFormat.unmarshal(JacksonDataFormat.java:196) ~[camel-jackson-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.processor.UnmarshalProcessor.process(UnmarshalProcessor.java:62) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:78) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:40) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.RestBindingAdvice.unmarshal(RestBindingAdvice.java:308) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.RestBindingAdvice.before(RestBindingAdvice.java:144) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.RestBindingAdvice.before(RestBindingAdvice.java:54) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:156) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:78) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:40) [camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:213) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:79) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+2020-05-01 15:56:02.638 | [INFO ] | [http-nio-0.0.0.0-8085-exec-1] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | *<-- [route1      ] [from[servlet:/spring-camel-api/me] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-1, BodyType: String, Body: {customerName:Benoit,customerId:123,message:test}]
+2020-05-01 15:56:14.252 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [route1      ] [direct:messageService            ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-3, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@1a48e3eb]
+2020-05-01 15:56:14.254 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | traceBeforeRoute : 129 | ---> [message-hand] [from[direct:messageService]      ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-3, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@1a48e3eb]
+2020-05-01 15:56:14.255 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-3, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@1a48e3eb]
+2020-05-01 15:56:14.277 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | Received: test
+2020-05-01 15:56:14.278 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [log                              ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-3, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@1a48e3eb]
+2020-05-01 15:56:14.279 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.spi.CamelLogger message-handler | log : 158 | From: Benoit: 123
+2020-05-01 15:56:14.280 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 |      [message-hand] [file:to/0.json                   ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-3, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@1a48e3eb]
+2020-05-01 15:56:14.282 | [ERROR] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.spi.CamelLogger org.apache.camel.processor.errorhandler.DefaultErrorHandler | log : 203 | Failed delivery for (MessageId: ID-DESKTOP-8KK3OFN-1588344962577-0-4 on ExchangeId: ID-DESKTOP-8KK3OFN-1588344962577-0-3). Exhausted after delivery attempt: 1 caught: org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: to\0.json\ID-DESKTOP-8KK3OFN-1588344962577-0-4
+
+Message History
+---------------------------------------------------------------------------------------------------------------------------------------
+RouteId              ProcessorId          Processor                                                                        Elapsed (ms)
+[route1            ] [route1            ] [from[servlet:/spring-camel-api/messages?httpMethodRestrict=POST%2COPTIONS&opti] [        39]
+[route1            ] [to3               ] [direct:messageService                                                         ] [         0]
+[message-handler   ] [log1              ] [log                                                                           ] [        24]
+[message-handler   ] [log2              ] [log                                                                           ] [         3]
+[message-handler   ] [to1               ] [file:to/0.json                                                                ] [         0]
+
+Stacktrace
+---------------------------------------------------------------------------------------------------------------------------------------
+org.apache.camel.component.file.GenericFileOperationFailedException: Cannot store file: to\0.json\ID-DESKTOP-8KK3OFN-1588344962577-0-4
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:376) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.writeFile(GenericFileProducer.java:300) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.processExchange(GenericFileProducer.java:164) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.GenericFileProducer.process(GenericFileProducer.java:75) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorConverterHelper$ProcessorToAsyncProcessorBridge.process(AsyncProcessorConverterHelper.java:67) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.SendProcessor.process(SendProcessor.java:134) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.errorhandler.RedeliveryErrorHandler$RedeliveryState.run(RedeliveryErrorHandler.java:476) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor$Worker.schedule(DefaultReactiveExecutor.java:185) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultReactiveExecutor.scheduleMain(DefaultReactiveExecutor.java:59) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.Pipeline.process(Pipeline.java:87) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.processor.CamelInternalProcessor.process(CamelInternalProcessor.java:228) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.impl.engine.DefaultAsyncProcessorAwaitManager.process(DefaultAsyncProcessorAwaitManager.java:78) [camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.AsyncProcessorSupport.process(AsyncProcessorSupport.java:40) [camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.doService(CamelServlet.java:213) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.http.common.CamelServlet.service(CamelServlet.java:79) [camel-http-common-3.0.0-RC3.jar:3.0.0-RC3]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) [tomcat-embed-websocket-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) [spring-web-5.2.5.RELEASE.jar:5.2.5.RELEASE]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:541) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:373) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1594) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) [tomcat-embed-core-9.0.33.jar:9.0.33]
+	at java.lang.Thread.run(Thread.java:830) [?:?]
+Caused by: org.apache.camel.InvalidPayloadException: No body available of type: java.io.InputStream but has value: com.grantlee289.springcamel.beans.ApiBean@1a48e3eb of type: com.grantlee289.springcamel.beans.ApiBean on: HttpMessage@0x407218cb. Caused by: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@1a48e3eb. Exchange[ID-DESKTOP-8KK3OFN-1588344962577-0-3]. Caused by: [org.apache.camel.NoTypeConversionAvailableException - No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@1a48e3eb]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:115) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+Caused by: org.apache.camel.NoTypeConversionAvailableException: No type converter available to convert from type: com.grantlee289.springcamel.beans.ApiBean to the required type: java.io.InputStream with value com.grantlee289.springcamel.beans.ApiBean@1a48e3eb
+	at org.apache.camel.impl.converter.BaseTypeConverterRegistry.mandatoryConvertTo(BaseTypeConverterRegistry.java:139) ~[camel-base-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.support.MessageSupport.getMandatoryBody(MessageSupport.java:113) ~[camel-support-3.0.0-RC3.jar:3.0.0-RC3]
+	at org.apache.camel.component.file.FileOperations.storeFile(FileOperations.java:355) ~[camel-file-3.0.0-RC3.jar:3.0.0-RC3]
+	... 48 more
+2020-05-01 15:56:14.284 | [INFO ] | [http-nio-0.0.0.0-8085-exec-2] | org.apache.camel.impl.engine.DefaultTracer org.apache.camel.Tracing | dumpTrace : 233 | <--- [message-hand] [from[direct://messageService]    ] Exchange[Id: ID-DESKTOP-8KK3OFN-1588344962577-0-3, BodyType: com.grantlee289.springcamel.beans.ApiBean, Body: com.grantlee289.springcamel.beans.ApiBean@1a48e3eb]
