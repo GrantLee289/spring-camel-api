@@ -2,11 +2,8 @@ package com.grantlee289.springcamel.routes;
 
 import com.grantlee289.springcamel.beans.ApiBean;
 import com.grantlee289.springcamel.config.ApplicationProperties;
-import org.apache.camel.CamelContext;
 import org.apache.camel.builder.RouteBuilder;
-import org.apache.camel.impl.DefaultCamelContext;
 import org.apache.camel.model.rest.RestBindingMode;
-import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
 @Component
