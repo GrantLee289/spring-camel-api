@@ -3,9 +3,9 @@ services:
   spring-camel-api:
     image: grantlee289/spring-camel-api
     container_name: spring-camel-api-app
-    expose:
-      - "8084/tcp:8084/tcp"
-      - "8085/tcp:8085/tcp"
+    ports:
+      - "8084:8084"
+      - "8085:8085"
     volumes:
       - /opt/apps/spring-camel-api/logs:/logs
       - /opt/apps/spring-camel-file-mover/from:/to
