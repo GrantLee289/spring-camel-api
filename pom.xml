@@ -16,6 +16,7 @@
     </properties>
 
     <build>
+        <finalName>spring-camel-api</finalName>
         <plugins>
             <plugin>
                 <!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-maven-plugin -->

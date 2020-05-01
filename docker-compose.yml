@@ -5,5 +5,5 @@ services:
     container_name: spring-camel-api-app
     volumes:
       - /opt/apps/spring-camel-api/logs:/logs
-      - /opt/apps/spring-camel-api/from:/from
+      - /opt/apps/spring-camel-file-mover/from:/to
     restart: unless-stopped
