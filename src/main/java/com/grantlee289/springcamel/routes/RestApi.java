@@ -35,6 +35,6 @@ public class RestApi extends RouteBuilder {
         .post("/messages")
         .bindingMode(RestBindingMode.json_xml)
         .type(ApiBean.class)
-        .to(applicationProperties.getMessageService());
+        .to(applicationProperties.getMessageServiceTransformer());
   }
 }

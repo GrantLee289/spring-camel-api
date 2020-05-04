@@ -34,4 +34,9 @@ public class ApiBean {
   public void setCustomerName(String customerName) {
     this.customerName = customerName;
   }
+
+  @Override
+  public String toString() {
+    return customerName + customerId + message;
+  }
 }

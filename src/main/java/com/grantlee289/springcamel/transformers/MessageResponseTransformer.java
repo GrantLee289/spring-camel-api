@@ -13,12 +13,12 @@ public class MessageResponseTransformer implements Processor {
   public static final Logger LOGGER = LoggerFactory.getLogger(MessageResponseTransformer.class);
 
   @Override
-  public void process(Exchange exchange) throws Exception {
+  public void process(Exchange exchange) {
     ApiBean messageBean = exchange.getIn().getBody(ApiBean.class);
     if (messageBean.getCustomerName().equalsIgnoreCase("Benoit")) {
-      exchange.getIn().setBody("Balls!");
+      exchange.setProperty("response", "Balls!");
     } else {
-      exchange.getIn().setBody("Thanks " + messageBean.getCustomerName() + "(" + messageBean.getCustomerId() + ") - your message has been received");
+      exchange.setProperty("response", "Thanks " + messageBean.getCustomerName() + "(" + messageBean.getCustomerId() + ") - your message has been received");
     }
   }
 }

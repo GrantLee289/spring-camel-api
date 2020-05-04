@@ -18,10 +18,10 @@ import org.springframework.test.context.TestPropertySource;
 @RunWith(CamelSpringBootRunner.class)
 @SpringBootTest(classes = Application.class)
 @DirtiesContext(classMode = DirtiesContext.ClassMode.AFTER_EACH_TEST_METHOD)
-@TestPropertySource(properties = {/*"message.service=direct:from", */"endpoint.to=mock:to"})
-public class MessageHandlerRouteTest {
+@TestPropertySource(properties = {"endpoint.to=mock:to"})
+public class MessageTransformerRouteTest {
 
-  private static final String MOCK_PRODUCER = "direct:messageService";
+  private static final String MOCK_PRODUCER = "direct:transformerService";
 
   private static final String MOCK_ENDPOINT = "mock:to";
 

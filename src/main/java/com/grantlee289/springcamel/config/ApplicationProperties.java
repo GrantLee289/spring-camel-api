@@ -9,6 +9,12 @@ public class ApplicationProperties {
   @Value("${message.service}")
   private String messageService;
 
+  @Value("${message.service.response}")
+  private String messageServiceResponse;
+
+  @Value("${message.service.transformer}")
+  private String messageServiceTransformer;
+
   @Value("${com.grantlee289.path}")
   private String contextPath;
 
@@ -20,6 +26,14 @@ public class ApplicationProperties {
 
   public String getMessageService() {
     return messageService;
+  }
+
+  public String getMessageServiceResponse() {
+    return messageServiceResponse;
+  }
+
+  public String getMessageServiceTransformer() {
+    return messageServiceTransformer;
   }
 
   public String getContextPath() {
