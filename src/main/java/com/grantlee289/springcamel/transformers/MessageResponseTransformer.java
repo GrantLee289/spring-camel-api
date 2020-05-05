@@ -16,7 +16,7 @@ public class MessageResponseTransformer implements Processor {
   public void process(Exchange exchange) {
     ApiBean messageBean = exchange.getIn().getBody(ApiBean.class);
     if (messageBean.getCustomerName().equalsIgnoreCase("Benoit")) {
-      exchange.setProperty("response", "Balls!");
+      exchange.setProperty("response", "Merci " + messageBean.getCustomerName() + "(" + messageBean.getCustomerId() + ") - votre message a été reçu");
     } else {
       exchange.setProperty("response", "Thanks " + messageBean.getCustomerName() + "(" + messageBean.getCustomerId() + ") - your message has been received");
     }
